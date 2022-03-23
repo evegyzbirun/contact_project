@@ -1,0 +1,67 @@
+#form {
+  border: 3px solid lightblue;
+  border-radius: 5%;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+#form button {
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  border: none;
+  background-color: rgb(153, 192, 204);
+  font-size: 20px;
+}
+#form button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.form-group {
+  font-size: 18px;
+  margin: 15px;
+}
+.form-group input {
+  font-size: 15px;
+  border: 5px solid lightblue;
+}
+.form-group input:focus {
+  border: 5px solid lightblue;
+}
+.form-group select {
+  font-size: 15px;
+  border: 5px solid lightblue;
+}
+.form-group label {
+  margin-right: 5px;
+}
+#output {
+  width: 80%;
+  margin: auto;
+}
+.contact {
+  margin-top: 15px;
+}
+.contact h3 {
+  background-color: rgb(153, 192, 204);
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.contact h3:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.contact ul {
+  display: none;
+  list-style: none;
+  text-align: center;
+}
+.contact ul li {
+  font-size: 20px;
+}
+.highlight {
+  color: rgb(101, 131, 139);
+}
